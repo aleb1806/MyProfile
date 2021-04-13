@@ -64,32 +64,38 @@ a:hover {
 
 .card-ind {
 	background-color: #2541B2;	
-	box-shadow: 7px 7px 7px #03256c;
-    border-radius: 10px;
+	box-shadow: 15px 15px 15px #03256c;
+    border-radius: 50px;
     margin: 30px;
-    padding: 30px
+    padding: 30px;
 }
 
 .icons-inline {
-	display: inline;
+	display: inline-flex;
+}
+
+.icons-inline li {
+	padding: 0px 15px;
+}
+
+.icons-inline i {
+	font-size: 50px;
 }
 
 @media (max-width: 540px) {
 	.cards {
 		width: 300px;
 	}
-
-	.card-ind {
-		background-color: light red;
-	}
 }
 
+ul, ol {
+	list-style-type: none;
+	padding: 0px;
+}
 
-
-
-
-
-
+.btn-container {
+	padding: 30px;
+}
 
 
 
